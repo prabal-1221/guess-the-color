@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightblue;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 2vw;
+    cursor: pointer;
+}
+
+#container {
+    height: 50vh;
+    width: 50vw;
+    margin: 2vw auto;
+    display: grid;
+    grid-template-rows: repeat(2,25vh);
+    grid-template-columns: repeat(3,15vw);
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.box {
+    margin: 2vw;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* .box:hover {
+    background-color: rgb(234, 16, 241);
+} */
+
+#pickColor {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 2vw 30vw;
+    padding: 1vw;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+.resultmsg {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1vw;
+    margin: 3vw auto;
+}
+
+.win {
+    background-color: white;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    border-radius: 10px;
+    padding: 1vw;
+    margin: 3vw auto;
+}
+.lose {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 1vw;
+    margin: 3vw auto;
+}
